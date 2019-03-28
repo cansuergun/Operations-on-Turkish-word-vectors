@@ -33,11 +33,12 @@
          - cosine similarity between "hemşire" and g, before neutralizing:  0.050692555
          - cosine similarity between "hemşire" and g, after neutralizing:  -7.24249e-09
     - ### Task 3-b: Equalization algorithm for gender-specific words
-         If  "aunt"("teyze") is closer to "nurse" ("hemşire") than "uncle" ("amca"), by applying neutralizing to "nurse" ("hemşire") we can reduce the gender-stereotype associated with nursing. But this still does not guarantee that "uncle" and "aunt" are equidistant from "nurse." The equalization algorithm takes care of this.
+         If  "teyze"("aunt") is closer to "hemşire" ("nurse") than "amca" ("uncle"), by applying neutralizing to "hemşire" ("nurse") we can reduce the gender-stereotype associated with nursing. But this still does not guarantee that "amca" and "teyze" are equidistant from "hemşire." The equalization algorithm takes care of this.
          #### cosine similarities before equalizing:
          - cosine_similarity(word_to_vec_map["amca"], g) =  -0.13712864
          - cosine_similarity(word_to_vec_map["teyze"], g) =  0.014657278
-         #### cosine similarities after equalizing:
+         #### cosine similarities after equalizing 
+          (e1 and e2 are word vectors which refer to "uncle" and "aunt" after after appying the equalization algorithm)
          - cosine_similarity(e1, g) =  -0.21136397
          - cosine_similarity(e2, g) =  0.21136402
    
