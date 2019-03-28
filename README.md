@@ -1,12 +1,12 @@
 # Operations on Turkish word vectors
 
-
-- Adaptation of the assignment named 'Operations on word vectors' in Sequence Models course offered by Andrew Ng's deep learning specialization in coursera.
-- Original assignment provides an incomplete code to be solved using English word vectors.
-- Solved code is applied to word vectors pre-trained by Turkish word2vec model. See: https://github.com/akoksal/Turkish-Word2Vec
+- This work creates word analogies and debiases gender-stereotyped word vectors for Turkish language.
+- This is an adaptation of the assignment named 'Operations on word vectors',  given in the online course 'Sequence Models'  offered by **Andrew Ng**. 
+- Original assignment provides an incomplete code to be solved using English word vectors  for each task given below. 
+- Solved code is applied to word vectors pre-trained by Turkish word2vec model developed by . Visit  https://github.com/akoksal/Turkish-Word2Vec. 
 - Equations used in debiasing task are implemented according to the following paper:
    Bolukbasi et al., 2016, Man is to Computer Programmer as Woman is to Homemaker? Debiasing Word Embeddings
-   https://papers.nips.cc/paper/6228-man-is-to-computer-programmer-as-woman-is-to-homemaker-debiasing-word-embeddings.pdf
+   Visit https://papers.nips.cc/paper/6228-man-is-to-computer-programmer-as-woman-is-to-homemaker-debiasing-word-embeddings.pdf
    
    ## Task 1 - Cosine similarity
    Computation of  cosine similarity  between two word vectors. It is used in tasks 2 and 3.
