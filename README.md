@@ -13,20 +13,20 @@
    ## Task 2 - Word Analogy
    Performs the Turkish version of word analogy task such as : "woman" is to "man" as "girl" is to ____. Finds the best word given the analogy. For this example,  ____ will be "boy". 
    - ### Triads and best words found:
-        - anne -> baba :: kız ->                  oğlan ✓✓✓
-        - büyük -> küçük :: geniş ->          dar ✓✓✓
-        - gelmek -> geldi :: gitmek ->        gitti ✓✓✓
-        - gelmek -> geliyor :: gitmek ->     gidiyor ✓✓✓
-        - akıllı -> zeki :: neşeli ->                sakar
-        - adam -> kadın :: dede ->            mevlevi
-   - ### English translation of word pairs above
-        - italy -> italian :: spain -> spanish ✓✓✓ 
-        - mother -> father :: girl -> boy ✓✓✓ 
-        - big -> small :: large -> narrow ✓✓✓ 
-        - to come -> came :: to go-> went ✓✓✓ 
-        - to come-> is coming :: to go -> is going ✓✓✓ 
-        - smart -> intelligent :: cheerful -> clumsy  (a synonym of cheerful was expected here )
-        - man-> woman :: grandfather -> dervish (grandmother was expected here)
+        - anne -> baba :: kız --------->                  oğlan ✓
+        - büyük -> küçük :: geniş --------->          dar ✓
+        - gelmek -> geldi :: gitmek --------->         gitti ✓
+        - gelmek -> geliyor :: gitmek --------->     gidiyor ✓
+        - akıllı -> zeki :: neşeli --------->                 sakar
+        - adam -> kadın :: dede --------->            mevlevi
+    - ### English translation:
+        - italy -> italian :: spain --------->  spanish ✓
+        - mother -> father :: girl --------->  boy ✓
+        - big -> small :: large --------->  narrow ✓ 
+        - to come -> came :: to go --------->  went ✓ 
+        - to come-> is coming :: to go --------->  is going ✓ 
+        - smart -> intelligent :: cheerful --------->  clumsy  (a synonym of cheerful was expected here )
+        - man-> woman :: grandfather --------->  dervish (grandmother was expected here)
    ## Task 3 - Debiasing word vectors
     - ### Task 3-a: Neutralize bias for non-gender specific words
          For the gender bias vector: g=word_vectors['kadın'] - word_vectors['adam'] ("woman" - "man"), this task creates the neutralized word vector representation of the input "hemşire" ("nurse").
