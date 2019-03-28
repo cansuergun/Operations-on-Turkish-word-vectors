@@ -38,7 +38,7 @@
          - cosine_similarity(word_to_vec_map["amca"], g) =  -0.13712864
          - cosine_similarity(word_to_vec_map["teyze"], g) =  0.014657278
          #### cosine similarities after equalizing 
-          (e1 and e2 are word vectors which refer to "uncle" and "aunt" after after appying the equalization algorithm)
+         (e1 and e2 are word vectors which refer to "amca" and "teyze" after after appying the equalization algorithm)
          - cosine_similarity(e1, g) =  -0.21136397
          - cosine_similarity(e2, g) =  0.21136402
    
