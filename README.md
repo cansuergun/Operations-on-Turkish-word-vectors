@@ -1,7 +1,7 @@
 # Operations on Turkish word vectors
 
 - This work creates word analogies and debiases gender-stereotyped word vectors for Turkish language.
-- This is an adaptation of the assignment named 'Operations on word vectors',  given in the online course 'Sequence Models'  offered by **Andrew Ng**. 
+- This is an adaptation of the assignment named 'Operations on word vectors',  given in the online course 'Sequence Models'  offered by Andrew Ng. 
 - Original assignment provides an incomplete code to be solved using English word vectors  for each task given below. 
 - Solved code is applied to word vectors pre-trained by Turkish word2vec model developed by @akoksal. See:  https://github.com/akoksal/Turkish-Word2Vec. 
 - Equations used in debiasing task are implemented according to the following paper:
