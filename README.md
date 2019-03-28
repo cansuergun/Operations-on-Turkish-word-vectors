@@ -13,6 +13,7 @@
    ## Task 2 - Word Analogy
    Performs the Turkish version of word analogy task such as : "woman" is to "man" as "girl" is to ____. Finds the best word given the analogy. For this example,  ____ will be "boy". 
    - ### Triads and best words found:
+        - italya -> italyan :: ispanya ---------> ispanyol ✓
         - anne -> baba :: kız --------->                  oğlan ✓
         - büyük -> küçük :: geniş --------->          dar ✓
         - gelmek -> geldi :: gitmek --------->         gitti ✓
