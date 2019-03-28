@@ -13,11 +13,11 @@
    ## Task 2 - Word Analogy
    Performs the Turkish version of word analogy task such as : "woman" is to "man" as "girl" is to ____. Finds the best word given the analogy. For this example,  ____ will be "boy". 
    ## Task 3 - Debiasing word vectors
-         ### Task 3-a: Neutralize bias for non-gender specific words
+    - ### Task 3-a: Neutralize bias for non-gender specific words
          For the gender bias vector: g=word_vectors['kadın'] - word_vectors['adam'] ("woman" - "man"), this task creates the neutralized word vector representation of the input "hemşire" ("nurse").
          - cosine similarity between "hemşire" and g, before neutralizing:  0.050692555
          - cosine similarity between "hemşire" and g, after neutralizing:  -7.24249e-09
-         ### Task 3-b: Equalization algorithm for gender-specific words
+    - ### Task 3-b: Equalization algorithm for gender-specific words
          If  "aunt"("teyze" is closer to "nurse" ("hemşire") than "uncle" ("amca"), by applying neutralizing to "nurse" ("hemşire") we can reduce the gender-stereotype associated with nursing. But this still does not guarantee that "uncle" and "aunt" are equidistant from "nurse." The equalization algorithm takes care of this.
          #### cosine similarities before equalizing:
          - cosine_similarity(word_to_vec_map["amca"], gender) =  -0.13712864
