@@ -180,7 +180,7 @@ print("cosine similarity between " + e + " and g, after neutralizing: ", cosine_
 # Equalization is applied to pairs of words that you might want
 # to have differ only through the gender property. As a concrete example, 
 # suppose that "aunt" is closer to "nurse" than "uncle." By applying neutralizing
-# to "nurse" we can reduce the gender-stereotype associated with babysitting. 
+# to "nurse" we can reduce the gender-stereotype associated with nursing. 
 # But this still does not guarantee that "uncle" and "aunt" are equidistant
 # from "nurse." The equalization algorithm takes care of this.
 
